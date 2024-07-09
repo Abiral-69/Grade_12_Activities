@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keys in DBMS</title>
+
+    <!-- Importing Google Fonts -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300;400;700&display=swap">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&display=swap">
+
+    <style>
+        body {
+            background-image: url('Wallpaper epic.png');
+            background-size: cover;
+            background-attachment: fixed;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            font-family: 'Roboto Condensed', sans-serif;
+            overflow: auto;
+            color: #333;
+        }
+
+        .content-box {
+            background: rgba(255, 255, 255, 0.2);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 30px;
+            max-width: 800px;
+            width: 90%;
+            margin: 20px;
+            overflow-y: auto;
+            max-height: 90vh;
+            backdrop-filter: blur(10px);
+            color: antiquewhite;
+        }
+
+        .header {
+            text-align: center;
+            margin-bottom: 20px;
+        }
+
+        .header h1 {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            font-size: 36px;
+            margin: 0;
+            color: aliceblue;
+            text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+        }
+
+        .header h2 {
+            font-family: 'Playfair Display', serif;
+            font-size: 24px;
+            margin: 0;
+            color:blanchedalmond;
+        }
+
+        .content ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .content li {
+            margin-bottom: 20px;
+            color:#333;
+
+        }
+
+        .content p {
+            margin: 10px 0;
+            font-size: 18px;
+        }
+
+        .content p.white {
+            color:goldenrod;
+            font-weight: bold;
+        }
+
+        .content .types {
+            font-size: 22px;
+            text-decoration: underline;
+            margin-top: 30px;
+            margin-bottom: 20px;
+            color: aliceblue;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        table th,
+        table td {
+            border: 1px solid #333;
+            padding: 10px;
+            text-align: left;
+            color:#333;
+        }
+
+        table th {
+            background-color: aquamarine;
+        }
+
+        table td {
+            background: rgb(233, 240, 236, 0.5);
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-box">
+        <div class="header">
+            <h1>Keys in DBMS</h1>
+            <h2>Day 4</h2>
+        </div>
+        <div class="content">
+            <ul>
+                <li>
+                    <p class="white">Key:</p>
+                    <p>
+                        A "key" refers to a special attribute or set of attributes that uniquely identify a tuple (row) within a table. Keys play a fundamental role in relational database design and management, ensuring data integrity and facilitating efficient data retrieval.
+                    </p>
+                    <p>
+                        Sample Table:
+                    </p>
+                    <table>
+                        <tr>
+                            <th>ID</th>
+                            <th>Name</th>
+                            <th>Course</th>
+                            <th>Citizenship No.</th>
+                        </tr>
+                        <tr>
+                            <td>1</td>
+                            <td>Abiral</td>
+                            <td>Computer Science</td>
+                            <td>494910</td>
+                        </tr>
+                        <tr>
+                            <td>2</td>
+                            <td>Aayush</td>
+                            <td>Economics</td>
+                            <td>101049</td>
+                        </tr>
+                        <tr>
+                            <td>3</td>
+                            <td>Ram</td>
+                            <td>Sports Science</td>
+                            <td>181890</td>
+                        </tr>
+                        <tr>
+                            <td>4</td>
+                            <td>Hari</td>
+                            <td>Biology</td>
+                            <td>301289</td>
+                        </tr>
+                    </table>
+                </li>
+
+                <p class="types" >Types of Keys</p>
+
+                <li>
+                    <p class="white">Super Key:</p>
+                    <p>The set of all possible keys that can define a tuple uniquely. In this table, all the four headers are eligible to become super key.</p>
+                </li>
+                <li>
+                    <p class="white">Candidate Keys:</p>
+                    <p>Keys that are eligible to become primary key and are unique in nature are called candidate keys. In the example above, all the four can be candidate keys. However, ID and Citizenship no. are more preferred.</p>
+                </li>
+                <li>
+                    <p class="white">Primary Key:</p>
+                    <p>The most unique key that helps to identify a tuple in a table is known as primary key. It makes finding specific data and editing, data management much easier. In the table above, the most suitable column for primary key is ID.</p>
+                </li>
+                <li>
+                    <p class="white">Alternate Key:</p>
+                    <p>All the candidate keys which fail to become the primary key are known as alternate keys.</p>
+                </li>
+                <li>
+                    <p class="white">Foreign Key:</p>
+                    <p>A foreign key is a column or columns of data in one table that refers to the unique data values, often the primary key data in another table. Foreign keys link together two or more tables in a relational database.</p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</body>
+
+</html>
+s

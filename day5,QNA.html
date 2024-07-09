@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Git Hub QNA</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background-image: url('https://images.unsplash.com/photo-1473172707857-f9e276582ab6');
+            background-size: cover;
+            background-attachment: fixed;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            color: #fff;
+        }
+
+        .content-box {
+            background: rgba(0, 0, 0, 0.5);
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            padding: 20px;
+            max-width: 800px;
+            width: 90%;
+            backdrop-filter: blur(10px);
+            overflow-y: auto;
+            max-height: 90vh;
+        }
+
+        h1 {
+            text-align: center;
+            margin-bottom: 20px;
+            font-size: 36px;
+        }
+
+        .content-box b {
+            font-size: 18px;
+            margin-top: 20px;
+            display: block;
+        }
+
+        .content-box p {
+            font-size: 16px;
+            margin-top: 10px;
+        }
+
+        .content-box li {
+            margin-top: 10px;
+        }
+
+        table {
+            width: 100%;
+            margin-top: 20px;
+            border-collapse: collapse;
+        }
+
+        table th,
+        table td {
+            border: 1px solid #ddd;
+            padding: 8px;
+        }
+
+        table th {
+            background-color: #f2f2f2;
+            color: #333;
+        }
+
+        .types {
+            text-decoration: underline;
+            font-size: 25px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="content-box">
+        <h1>Git Hub QNA</h1>
+
+        <b>How to create Gmail account?</b>
+        <p>Gmail is a free email service developed by Google. The process is:</p>
+        <ul>
+            <li>Open your web browser and go to gmail.com.</li>
+            <li>Click on the "Create account" button. You'll be given options to create an account for personal use or business use.</li>
+            <li>Enter your first and last name. Choose a username for your email address. This will be the part of your email address before "@gmail.com". Create a strong password and confirm it. Make sure to use a mix of letters, numbers, and special characters to make your password secure.</li>
+            <li>Enter your phone number. Google will send you a verification code via SMS to verify your identity.</li>
+            <li>Enter your date of birth and gender. Review Google's Privacy Policy and Terms of Service and click "I agree" to create your account.</li>
+        </ul>
+
+        <b>How to create GitHub account?</b>
+        <p>
+        <ul>
+            <li>Open your web browser and go to github.com.</li>
+            <li>Click on the "Sign up" button in the upper-right corner of the homepage.</li>
+            <li>Choose a unique username. This will be your identifier on GitHub. Enter a valid email address and create a strong password.</li>
+            <li>Verify your email address.</li>
+            <li>Personalize your account and complete the process.</li>
+        </ul>
+        </p>
+
+        <b>How to connect VS Code editor to GitHub account?</b>
+        <p>
+        <ul>
+            <li>Ensure Git is installed on your system.</li>
+            <li>Launch Visual Studio Code, go to Extensions view (Ctrl+Shift+X), and search for "GitHub" to install the Microsoft extension.</li>
+            <li>Click the Accounts icon in the Activity Bar and select "Sign in with GitHub" and follow the prompts.</li>
+            <li>Open Command Palette (Ctrl+Shift+P) and select "Git: Clone" and enter the repository URL.</li>
+            <li>Create new repositories, commit changes, push, and pull updates directly from VS Code.</li>
+        </ul>
+        </p>
+
+        <b>How to clone/pull repo from GitHub?</b>
+        <p>
+            <b>Cloning a Repo using VS Code:</b>
+            <ul>
+                <li>Navigate to the repository directory with <b>`cd /path/to/cloned/repository` in terminal</b>.</li>
+                <li>Type <b>`git pull`</b> in terminal.</li>
+            </ul>
+
+            <b>Pull Requests using VS Code:</b>
+            <ul>
+                <li>Open Command Palette (Ctrl+Shift+P) and select "Git: Clone" and enter the URL.</li>
+                <li>Open Source Control view (Ctrl+Shift+G), click the "..." menu, and select "Pull".</li>
+            </ul>
+        </p>
+
+        <b>How to push repo/folder to GitHub?</b>
+        <p>
+        <ul>
+            <li>Open the folder in VS Code and open terminal (Ctrl+`).</li>
+            <li>Run <b>`git init`</b>.</li>
+            <li>Run <b>`git add .`</b>.</li>
+            <li>Run <b>`git commit -m "Initial commit"`</b>.</li>
+        </ul>
+        </p>
+
+        <b>How to publish the repo at live site?</b>
+        <p>
+        <ul>
+            <li>Go to the repository you want to host.</li>
+            <li>Go to settings > Pages.</li>
+            <li>Select the branch (main or the respective branch) and the folder (root), then click save.</li>
+            <li>Go to the code tab and wait until the yellow dot turns green.</li>
+            <li>Go back to settings > Pages and click the provided link.</li>
+        </ul>
+        </p>
+    </div>
+</body>
+
+</html>
