@@ -1,0 +1,70 @@
+body {
+	background-image: url('wallpaper 1.jpg');
+	background-size: cover;
+	height: 100vh;
+	margin: 0;
+}
+
+.header {
+	background-color: rgba(255, 255, 255, 0.1); /* adjust transparency level here */
+	padding: 20px;
+	text-align: center;
+	width: 90%;
+	margin: 20px auto;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+	border-radius: 10px;
+	backdrop-filter: blur(10px); /* add this to blur the background */
+	border: solid aquamarine 1px;
+  }
+
+.header h1 {
+	color: whitesmoke;
+	font-size: 46px;
+	margin-bottom: 10px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.header h2 {
+	color: whitesmoke;
+	font-size: 34px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.4);
+}
+
+.nav {
+    background-color: rgba(225, 225, 225, 0.2);
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.4);
+    padding: 20px 20px 20px 40px; /* top, right, bottom, left */
+    margin-left: 2%; /* add margin to the left side */
+    border-radius: 20px;
+	backdrop-filter: blur(10px); /* add this to blur the background */
+}
+
+.nav ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+.nav li {
+	margin-bottom: 10px;
+}
+
+.nav a {
+	color:cadetblue;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #23527c;
+}
+.footer{
+	text-align: center;
+	padding-bottom: 20px;
+	bottom: 0;
+	color: white;
+}
